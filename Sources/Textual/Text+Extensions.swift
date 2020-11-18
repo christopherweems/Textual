@@ -16,3 +16,20 @@ public extension Text {
     }
     
 }
+
+
+// MARK: - Initializers
+
+public extension Text {
+    init(@TextResult _ v: () -> Text) {
+        self = v()
+    }
+    
+}
+
+public extension Text {
+    init(_ other: Text) {
+        self = other
+    }
+    
+}
