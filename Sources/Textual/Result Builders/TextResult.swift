@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@_functionBuilder
+@resultBuilder
 public struct TextResult {
     public static func buildBlock(_ elements: Text...) -> Text {
         var combined = elements.first!
