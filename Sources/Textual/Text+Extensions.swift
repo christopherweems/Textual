@@ -5,6 +5,7 @@
 //  Created by Christopher Weems on 11/18/20.
 //
 
+@_exported import Stringy
 import SwiftUI
 
 // MARK: - Text.italic(_:)
