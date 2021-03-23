@@ -43,6 +43,10 @@ extension TextResult {
         Text(contents)
     }
     
+    public static func buildExpression<V: View>(_ view: V) -> Text where V.Body == Text {
+        view.body
+    }
+    
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     public static func buildExpression(_ image: Image) -> Text {
         Text(image)
