@@ -18,6 +18,16 @@ public extension Text {
     
 }
 
+// MARK: - Specifying Underlined Text
+
+extension Text {
+    public init(underline linkTextString: String) {
+        self = Text(linkTextString).underline()
+        
+    }
+    
+}
+
 
 // MARK: - Initializers
 
